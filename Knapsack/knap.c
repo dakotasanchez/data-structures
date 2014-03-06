@@ -22,6 +22,7 @@ int ITEMS_SIZE;
 struct item ITEMS[128];
 // saved for dynamic computing
 int SAVED[1024];
+int LARGEST;
 
 int getFileItems();
 int maximum(int);
@@ -44,6 +45,7 @@ int main(int argc, char *argv[]) {
 	// get file items
 	ITEMS_SIZE = getFileItems();
 
+	LARGEST = 0;
 	// get maximum value
 	int max = maximum(capacity);
 	printf("\nMaximum value for capacity of %i = %i\n", capacity, max);
@@ -84,7 +86,6 @@ int maximum(int weight) {
 		return 0;
 
 	int i, value;
-	int largest = 0;
 	for (i = 0; i < ITEMS_SIZE; i++) {
 		// for re-use
 		int diff = weight - ITEMS[i].weight;
@@ -94,6 +95,8 @@ int maximum(int weight) {
 				SAVED[diff] = maximum(diff);
 			value = ITEMS[i].value + SAVED[diff];
 		}
+		if(value > LARGEST)
+			LARGEST = value;
 	}
-	return value;
+	return LARGEST;
 }
