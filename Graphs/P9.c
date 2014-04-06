@@ -1,7 +1,6 @@
 /*
 Dakota Sanchez
 9 Mar 2014
-CSE 222, Prog Assgn. 9
 This program takes data from adj.data to construct an unweighted
 directed graph. The program takes two nodes as arguments and finds 
 the shortest path from the source to the destination, if it exists.

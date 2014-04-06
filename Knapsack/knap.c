@@ -1,7 +1,6 @@
 /*
 Dakota Sanchez
-3-3-14
-Program 8
+3 MARCH 2014
 This program solves the 0/1 knapsack problem. It computes 
 the maximum possible value for a knapsack given weight-value 
 pairs from knapsack.data and a maximum weight capacity.

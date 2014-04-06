@@ -1,7 +1,6 @@
 /*
 Dakota Sanchez
 20 Jan 2014
-CSE 222, Prog Assgn. 2
 This program utilizes a linked list to show the process of
 	traversing, deleting, inserting, and searching through a linked list
 */

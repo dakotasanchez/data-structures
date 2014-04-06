@@ -1,7 +1,6 @@
 /*
 Dakota Sanchez
 7 FEB 2014
-CSE 222, Prog Assgn. 5
 This program has an array to represent a stack, and one to represent a queue.
 To interact with the structures you can switch between them, pop integers off,
 and push integers onto them.

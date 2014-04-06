@@ -1,7 +1,7 @@
-//Dakota Sanchez
-//10 Jan 2014
-//CSE 222, Prog. Assgn. 1
-//Simple structs representing vectors example
+/*Dakota Sanchez
+*10 Jan 2014
+*Simple structs representing vectors example
+*/
 
 #include <stdio.h>
 #include <stdlib.h>

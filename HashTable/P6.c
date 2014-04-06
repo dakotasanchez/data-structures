@@ -1,7 +1,6 @@
 /*
 Dakota Sanchez
 15 FEB 2014
-CSE 222, Prog Assgn. 6
 This program utilizes an array as a hash table
 for hash table functions. Display, searching, insertion, and deletion
 are possible.

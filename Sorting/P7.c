@@ -1,7 +1,6 @@
 /*
 Dakota Sanchez
-2-23-14
-Program 7
+23 FEB 2014
 Demonstrates the use of insertion sort and 
 merge sort on an array of 32 random integers
 */

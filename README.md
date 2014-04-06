@@ -1,9 +1,9 @@
 data-structures
 ===============
 
-Structs, Linked list, Binary Tree, Stack and Queue, Hash Table, Knapsack Algorithm, Merge/Insertion sort, and shortest path algorithm for unweighted graphs. 
+Linked list, Binary Tree, Stack, Queue, Hash Table, Knapsack Algorithm, Merge/Insertion sort, and shortest path algorithm for unweighted graphs. Also factorial for integer up to 100 digits.
 
-Just examples, with tar bundles of makefile and .c file included
+Just examples, with makefiles and .c files included
 
 Setup
 =====

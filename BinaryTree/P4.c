@@ -1,7 +1,6 @@
 /*
 Dakota Sanchez
 2 FEB 2014
-CSE 222, Prog Assgn. 4
 This program utilizes a binary tree to show the process of
 	traversing, deleting, inserting, and searching through a binary tree
 */
